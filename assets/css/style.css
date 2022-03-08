@@ -2,47 +2,76 @@
 *{
     font-family: "Montserrat",Arial, Helvetica, sans-serif;
     font-size:16px;
-}
-body{
-    margin: 0;
-    padding: 20px 0;
-    background: url("../img/wallpaper.jpg") no-repeat;
-    background-color: #0A0724;
-}
-main#main{
-    margin: auto;
-    max-width: 720px;
-    padding: 50px 100px;
-    background-color: #fff;
-}
-/* Headings and paragraphs*/
-h1#title{
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 3em;
-}
-h2{
-    font-weight: 600;
-    font-size: 1.5em;
-}
-p{
-    font-weight: 400;
-    font-size: 1em;
-    text-align: justify;
-}
-/* Figure */
-img#image{
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-figcaption#img-caption{
-    font-style: italic;
+    color:#fff;
 }
 
-/* Section */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #7A0BC0;
+}
+
+h2{
+    font-size: 3em;
+    text-align: left;
+    margin: 0;
+    color:#FA58B6;
+    border-bottom: 5px solid #FA58B6;
+}
+
 p{
-    padding: 5px;
+    text-align: justify;
+}
+
+/* Flex Classes*/
+
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+/* Navigation bar */
+
+nav{
+    background-color: #1A1A40;
+    height: 80px;
+    padding: 0 32px;
+    color:#fff;
+}
+
+ul{
+    gap:16px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+/* Main section */
+
+main{
+    margin: 32px 10%;
+    padding: 32px 64px;
+    background-color: #270082;
+}
+.main-img{
+    width: 300px;
 }
