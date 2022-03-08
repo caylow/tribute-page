@@ -92,4 +92,7 @@ main{
     nav{
         flex-direction: column;
     }
+    main{
+        margin: 16px 0;
+    }
 }
