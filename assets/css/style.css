@@ -3,6 +3,7 @@
     font-family: "Montserrat",Arial, Helvetica, sans-serif;
     font-size:16px;
     color:#fff;
+    overflow-x: none; 
 }
 
 body{
@@ -74,4 +75,21 @@ main{
 }
 .main-img{
     width: 300px;
+}
+
+@media (max-width: 728px) {
+    *{
+        font-size:12px
+    }
+    main{
+        margin: 16px 5%;
+    }
+}
+@media (max-width: 320px) {
+    .main-img{
+        width: 150px;
+    }
+    nav{
+        flex-direction: column;
+    }
 }
